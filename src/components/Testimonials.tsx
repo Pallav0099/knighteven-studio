@@ -4,22 +4,19 @@ import { motion } from "framer-motion";
 
 const testimonials = [
   {
-    quote:
-      "Working with this agency has been a game-changer. Their creativity and strategic approach helped us reach new heights.",
-    name: "John Doe",
-    title: "CEO, Example Inc.",
+    quote: "They cooked. We ate. Period.",
+    name: "@CoolBrandCEO",
+    handle: "via Twitter",
   },
   {
-    quote:
-      "The team's dedication and passion for storytelling are evident in every campaign. We couldn't be happier with the results.",
-    name: "Jane Smith",
-    title: "Marketing Director, Creative Co.",
+    quote: "our socials have never looked better tbh",
+    name: "Startup Founder",
+    handle: "via iMessage",
   },
   {
-    quote:
-      "A truly collaborative partner. They listened to our needs and delivered a campaign that exceeded all expectations.",
-    name: "Sam Wilson",
-    title: "Founder, Innovate LLC",
+    quote: "Knighteven just gets it. The vibes are immaculate.",
+    name: "Marketing Manager",
+    handle: "via Slack",
   },
 ];
 
@@ -34,7 +31,7 @@ export default function Testimonials() {
           viewport={{ once: true }}
           className="text-4xl font-bold text-center mb-12"
         >
-          What Our Clients Say
+          Client Love (The Receipts)
         </motion.h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {testimonials.map((testimonial, index) => (
@@ -44,11 +41,18 @@ export default function Testimonials() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: index * 0.2 }}
               viewport={{ once: true }}
-              className="bg-neutral-900 p-8 rounded-lg"
+              className="bg-neutral-900 p-6 rounded-lg border border-neutral-800"
             >
-              <p className="text-lg text-neutral-300 mb-6">"{testimonial.quote}"</p>
-              <p className="font-semibold text-white">{testimonial.name}</p>
-              <p className="text-sm text-neutral-400">{testimonial.title}</p>
+              <p className="text-lg text-white mb-4">"{testimonial.quote}"</p>
+              <div className="flex items-center">
+                <div className="w-10 h-10 rounded-full bg-neutral-700 mr-4"></div>
+                <div>
+                  <p className="font-semibold text-white">{testimonial.name}</p>
+                  <p className="text-sm text-neutral-400">
+                    {testimonial.handle}
+                  </p>
+                </div>
+              </div>
             </motion.div>
           ))}
         </div>
