@@ -1,24 +1,26 @@
 import Link from "next/link";
 
-interface NavItem {
-  label: string;
-  href: string;
-}
-
-const navItems: NavItem[] = [
-  { label: "Home", href: "/" },
-  { label: "About", href: "/about" },
-  { label: "Courses", href: "/courses" },
+const navItems = [
+  { label: "Work", href: "/work" },
+  { label: "Studio", href: "/studio" },
+  { label: "News", href: "/news" },
+  { label: "Pricing", href: "/pricing" },
   { label: "Contact", href: "/contact" },
 ];
 
 export default function Navbar() {
   return (
-    <nav className="w-full px-6 py-4 bg-white shadow-md">
-      <ul className="flex gap-6 items-center justify-center text-lg font-medium">
+    <nav className="w-full px-8 py-6 flex items-center justify-between bg-black text-white">
+      <Link href="/" className="text-2xl font-bold">
+        Knighteven Studio
+      </Link>
+      <ul className="flex gap-8 items-center text-lg">
         {navItems.map((item) => (
           <li key={item.href}>
-            <Link href={item.href} className="hover:text-blue-600 transition">
+            <Link
+              href={item.href}
+              className="hover:text-neutral-400 transition-colors"
+            >
               {item.label}
             </Link>
           </li>
