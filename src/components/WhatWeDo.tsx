@@ -4,16 +4,16 @@ import { motion } from "framer-motion";
 
 const services = [
   {
-    title: "Make TikToks go viral",
-    subtitle: "(fr we got you)",
+    title: "Creator & Influencer Management",
+    subtitle: "Grow, monetize, and thrive with our team.",
   },
   {
-    title: "Aesthetic Insta feeds?",
-    subtitle: "Easy.",
+    title: "Sponsorships & Brand Deals",
+    subtitle: "Connecting creators with top brands.",
   },
   {
-    title: "Cinematic ads with",
-    subtitle: "✨ vibes ✨",
+    title: "Social Media Growth & Strategy",
+    subtitle: "From content to campaigns, we handle it all.",
   },
 ];
 

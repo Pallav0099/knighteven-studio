@@ -13,16 +13,16 @@ export default function WhoWeAre() {
         viewport={{ once: true }}
         className="text-4xl sm:text-5xl font-bold mb-8"
       >
-        Not Your Grandpa’s Ad Agency
+        Not Just an Ad Agency—Your Growth Partner
       </motion.h2>
-      <div className="max-w-2xl mx-auto text-lg sm:text-xl text-neutral-300">
+      <div className="max-w-2xl mx-auto text-lg sm:text-xl text-black">
         <TypeAnimation
           sequence={[
-            "We're the creatives your brand needs to go from 'meh' to 'OMG' 🚀",
+            "We manage creators, connect brands, and make marketing magic happen 🚀",
             2000,
-            "We make scroll-stopping content that actually converts.",
+            "From influencer deals to viral campaigns, we do it all.",
             2000,
-            "Think of us as your brand's personal hype team. ✨",
+            "Think of us as your brand's and your creator's personal hype team. ✨",
             2000,
           ]}
           wrapper="p"

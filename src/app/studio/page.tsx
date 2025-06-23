@@ -18,35 +18,24 @@ export default function Studio() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
-          className="text-xl text-neutral-300 mb-8 text-center"
+          className="text-xl text-black mb-8 text-center"
         >
-          We are a collective of strategists, designers, and storytellers who
-          believe in the power of a great narrative. Our mission is to build
-          brands that not only stand out but also stand for something.
+          We are a marketing and management agency for brands and creators. Our mission: build, grow, and connect.
         </motion.p>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.4 }}
-          className="prose prose-invert prose-lg max-w-none text-neutral-400"
+          className="prose prose-lg max-w-none text-black"
         >
           <p>
-            Founded in 2020, Knighteven Studio was born from a desire to do
-            things differently. We saw a gap between brands and their audiences,
-            a space filled with noise but lacking in connection. We wanted to
-            fill that space with stories that resonate, strategies that deliver,
-            and designs that delight.
+            Founded in 2020, Knighteven Studio now manages creators, connects brands with influencers, and delivers campaigns that go beyond ads. We fill the gap between brands, audiences, and creators—making real connections and real results.
           </p>
           <p>
-            Our approach is collaborative and transparent. We work as an
-            extension of your team, embedding ourselves in your world to
-            understand your challenges and your ambitions. From there, we craft
-            bespoke solutions that are not only creative but also effective,
-            driving real-world results and fostering long-term growth.
+            Our approach is collaborative and transparent. We work as an extension of your team—brand or creator—embedding ourselves in your world to understand your challenges and ambitions. From there, we craft bespoke solutions that are creative, effective, and growth-focused.
           </p>
           <p>
-            We're not just a service provider; we're a partner in your success.
-            Let's build something amazing together.
+            We're not just a service provider; we're a partner in your success. Let's build something amazing together.
           </p>
         </motion.div>
       </div>

@@ -19,15 +19,15 @@ export default function Home() {
           transition={{ duration: 0.8 }}
           className="text-6xl sm:text-7xl lg:text-9xl font-bold tracking-tighter"
         >
-          Making Brands
+          Marketing. Management. Magic.
           <br />
           <motion.span
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.5, duration: 1 }}
-            className="text-neutral-400"
+            className="text-black"
           >
-            Unskippable.
+            For Brands & Creators.
           </motion.span>
         </motion.h1>
         <motion.div
@@ -37,16 +37,16 @@ export default function Home() {
           className="mt-8 flex gap-4"
         >
           <Link
-            href="/work"
-            className="bg-white text-black font-semibold py-3 px-8 rounded-lg hover:bg-neutral-200 transition-colors"
+            href="/creators"
+            className="bg-black text-white font-semibold py-3 px-8 rounded-lg hover:bg-neutral-800 transition-colors"
           >
-            🔥 See the Chaos
+            🎤 For Creators
           </Link>
           <Link
-            href="/contact"
-            className="bg-neutral-800 text-white font-semibold py-3 px-8 rounded-lg hover:bg-neutral-700 transition-colors border border-neutral-700"
+            href="/sponsors"
+            className="bg-black text-white font-semibold py-3 px-8 rounded-lg hover:bg-neutral-800 transition-colors border border-black"
           >
-            😎 Work With Us
+            🤝 For Sponsors
           </Link>
         </motion.div>
       </div>
